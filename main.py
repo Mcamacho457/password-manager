@@ -89,14 +89,6 @@ def show_pass():
         entryPassword.configure(show = '*')
 
 mode = "light"
-def darkMode():
-    global mode
-    if mode == "light":
-        app._set_appearance_mode("dark")
-        mode = "dark"
-    else:
-        app._set_appearance_mode("light")
-        mode = "light"
 
 if __name__ == "__main__":
     app = customtkinter.CTk()
@@ -137,8 +129,4 @@ if __name__ == "__main__":
     buttonShow = customtkinter.CTkCheckBox(app, text = "Show password", command = show_pass)
     buttonShow.grid(row = 1, column = 2)
 
-    #dark-mode button
-    """buttonDark = customtkinter.CTkSwitch(app, text = "Dark Mode", command = darkMode)
-    buttonDark.grid(row = 2, column = 2, padx = 15, pady = 8, sticky = "we")
-"""
     app.mainloop()
