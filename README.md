@@ -19,11 +19,12 @@ If needed, update module using:
 pip3 install customtkinter --upgrade
 ```
 
-**Download the `main.py` file**
+**Download and Navigate to the `main.py` file**
 
 Using `cd` in the Command Prompt, navigate to the directory where the `main.py` file is located.
 
 **Run the application**
+
 Run the password manager in the command prompt using:
 ```
 python main.py
