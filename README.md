@@ -6,7 +6,7 @@ Author: [Michael Camacho](https://github.com/Mcamacho457)
 The Python Password Manager is a graphical user interface that allows the user to save important usernames and their respective passwords for various websites. Log-in credentials can be saved for applications such as Instagram, Snapchat, Twitter, Google gmail, and more. The interface uses tkinter and custom tkinter to interact with input from the user and uses a text file (.txt) to store various usernames and their password.
 
 ## Installation/Usage
-Below are step-by-step instructions to download and run our program successfully.
+Below are step-by-step instructions to download and run the program successfully.
 
 **Install the custom tkinter python module**
 
